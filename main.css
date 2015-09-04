@@ -17,32 +17,21 @@ body {
 }
 
 .backgroundColorOne {
-	background-color: #E9E0D6;
-	height: 1000px;
-	opacity: 0.2;
-}
-
-.backgroundColorOne span.projects {
-	
+	background-color: #FBF9F7;
 	/*background-color: #E9E0D6;*/
-	color: black;
-	clear: both;
-	font-size: 15 em;
-	position: relative;
-	font-color: black;
-	text-align: center;
-	margin: 0 auto;
+	height: 900px;
 }
 
-span.projects {
-	/*z-index: 1; */
-	opacity: 1;
+.projects {
+	font-color: black;
+	font-size: 15 em;
+	text-align: center;
 }
 
 .backgroundColorTwo {
-	background-color: #E9E0D6;
+	background-color: #FBF9F7;
 	height: 800px;
-	opacity: 0.2;
+/*	opacity: 0.2;*/
 }
 
 .introduction {
