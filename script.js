@@ -7,10 +7,27 @@ function changeBackgroundOnScroll() {
 	}
 }
 
-window.onscroll = changeBackgroundOnScroll;
+window.onscroll = function() {
+	changeBackgroundOnScroll();
+	showPortfolioImagesOnScroll();
+};
+
+// window.onscroll = changeBackgroundOnScroll;
+// window.onscroll = showPortfolioImagesOnScroll;
 
 $(".imageOne").css("height", window.innerWidth);
 console.log(window.innerWidth);
+
+function showPortfolioImagesOnScroll() {
+ if (window.scrollY > 800) {
+ 	$('#projOne').show();
+ 	 // $('#projOne').addClass("projects")
+ 	 	$('#projOne').addClass('animated fadeInDown');
+ }
+
+}
+
+// $('#projOne').addClass("projects")
 
 // console.log("ready!");
 

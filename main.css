@@ -1,8 +1,4 @@
 body {
-	/*height: 1000px;*/
-	/*background: #fff;*/
-	/*background: url(./images/dawn-nature-sunset-trees.jpg);*/
-/*	background-position: center;*/
 } 
 
 .imageOne {
@@ -24,7 +20,7 @@ body {
 
 .projects {
 	font-color: black;
-	font-size: 15 em;
+	/*font-size: 15 em;*/
 	text-align: center;
 }
 
@@ -145,6 +141,17 @@ body {
 	top: 100px;*/
 }
 
+#projOne {
+	display: none;
+}
+
+.projects {
+	-webkit-transition: all 7s ease-in;
+	-moz-transition: all 7s ease-in;
+	-ms-transition: all 7s ease-in;
+	-o-transition: all 7s ease-in;
+	transition: all 7s ease-in;
+}
 /*
 #wrapper {
 	max-width: 1524px;

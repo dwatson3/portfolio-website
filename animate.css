@@ -1,4 +1,4 @@
-.projects {
+/*.fadeInDown {
 	-webkit-animation-name: fadeInDown;
 	animation-name: fadeInDown;
 
@@ -30,7 +30,7 @@
   }
 }
 
-}
+}*/
 
 .projects {
 	-webkit-transition: all 7s ease-in;
@@ -38,4 +38,10 @@
 	-ms-transition: all 7s ease-in;
 	-o-transition: all 7s ease-in;
 	transition: all 7s ease-in;
+}
+
+#projOne {
+	-vendor-animation-duration: 4s;
+	-vendor-animation-delay: 2s;
+	-vendor-animation-iteration
 }
