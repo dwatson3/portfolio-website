@@ -33,14 +33,16 @@ body {
 .introduction {
 	/*z-index: 1;*/
 	font-size: 35px;
-	line-height: 1em;
+	line-height: 2em;
 	text-align: center;
 	position: relative;
 	top: 30% ;
 }
 
 .fancy {
-	/*color: pink;*/
+	color: #7ACCC8;
+	font-family: 'IM Fell English', serif;
+	font-size: 4em;
 }
 
 .imageTwo {
