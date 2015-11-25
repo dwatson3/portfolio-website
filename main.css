@@ -25,8 +25,8 @@ ul.navbar-subjects li {
 }
 
 .backgroundColorOne {
-	/*background-color: #FBF9F7;*/
-	background: #1e90ff;
+	background-color: #FBF9F7;
+	/*background: #1e90ff;*/
 
 	/*background-color: #E9E0D6;*/
 	height: 500px;
@@ -41,7 +41,7 @@ ul.navbar-subjects li {
 }
 
 .backgroundColorTwo {
-	background-color: #FBF9F7;
+	/*background-color: #FBF9F7;*/
 	height: 800px;
 /*	opacity: 0.2;*/
 }
@@ -118,7 +118,7 @@ nav {
 
 ul {
 	bottom: 35px;
-	float: right;
+	/*float: right;*/
 	/*margin: 0 ;*/
 	padding-top: 30px;
 	position: relative;
@@ -129,8 +129,10 @@ ul {
 li, img.port-img {
   display: inline;
   font-size: 1.2em;
-	margin-right: 40px;
-	/*padding-right: 30px;*/
+
+  margin-bottom: 30px;
+	margin-right: 50px;
+	opacity: 0.9;
 	text-align: center;
 }
 
@@ -155,6 +157,7 @@ body {
 
 .backgroundColorTwo {
 	background-color: #E9E0D6;
+	
 	height: 600px;
 	opacity: 0.2;
 /*	position: absolute;
@@ -183,9 +186,10 @@ div.container, .horizontal-list li {
 ul.horizontal-list {
 	/*height: 60%;*/
 	margin: 0 auto;
-	min-width: 696px;
+	/*min-width: 696px;*/
 	list-style: none;
 	padding-top: 20px;
+	padding-left, padding-right: 0;
 
 	text-align: center;
 }
@@ -194,10 +198,11 @@ ul.horizontal-list li {
 	display: inline;
 	/*left: 12%;*/
 	margin: 0 auto;
-	position: relative;
+	/*position: relative;*/
 
 	text-align: center;
 }
+
 
 .port-img {
 	height: 70%;
@@ -217,6 +222,11 @@ ul.horizontal-list li {
 /*
 	-webkit-clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
 	clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);*/
+}
+
+.container {
+	padding-right: none;
+	padding-left: none;
 }
 
 
